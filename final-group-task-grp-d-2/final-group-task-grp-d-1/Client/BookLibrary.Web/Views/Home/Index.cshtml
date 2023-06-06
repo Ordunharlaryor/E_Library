@@ -1,0 +1,282 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+<body>
+
+
+    <form method="GET" action="/search-results">
+
+        <input type="text" id="search-query" name="q">
+        <button type="submit">Search</button>
+    </form>
+
+    <h3>What Interest you?</h3>
+
+    <div class="non-fiction">
+        <div>
+            <h4>Fiction Books</h4>
+            <a href="" class="btn-fiction">Drama</a>
+            <a href="" class="btn-fiction">Horror</a><br />
+            <div class="second-fiction">
+                <a href="" class="btn-fiction">Mystery</a>
+                <a href="" class="btn-fiction">Sci-Fi</a>
+            </div>
+
+        </div>
+
+        <div>
+            <h4>Non Fiction Books</h4>
+            <div class="all">
+
+                <a href="" class="btn-fiction">Art</a>
+                <a href="" class="btn-fiction">Biography</a><br />
+                <div class="second-fiction">
+                    <a href="" class="btn-fiction">Sport</a>
+                    <a href="" class="btn-fiction">Travel</a>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h4 class="genres">CD Genres</h4>
+            <a href="" class="btn-fiction">Blues</a>
+            <a href="" class="btn-fiction">Classical</a>
+            <a href="" class="btn-fiction">Folk</a>
+            <a href="" class="btn-fiction">Hip-Hop</a><br />
+            <div class="second-fiction">
+                <a href="" class="btn-fiction">Rap</a>
+                <a href="" class="btn-fiction">Reggae</a>
+                <a href="" class="btn-fiction">Rock</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="section-1">
+
+        <div class="text-center">
+
+
+
+            <div class="african-books">
+                <div>
+                    <img src="~/images/The Fisherman.jpg" width="150 " height="200" />
+                    <p><b>The Fisherman</b> <br /><b>Fiction</b><br />Chigozie Obioma</p>
+                    <div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <p>Available</p>
+                    </div>
+                </div>
+
+
+
+
+                <div>
+                    <img src="~/images/The-Legacy-of-Molly-Southbourne-by-Tade-Thompson.jpeg.webp" width="150" height="200" />
+                    <p><b>The Legacy of Molly Southbourne</b> <br /><b>Fiction</b><br />Tade Thompson</p>
+                    <div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <p>Available</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="~/images/Notes-from-a-Young-Black-Chef-Adapted-for-Young-Adults.jpg.webp" width="150" height="200" />
+                    <p><b>Notes from a Young Black Chef</b> <br /><b>Non-Fiction</b><br />John Simpson</p>
+                    <div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <p>Available</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="~/images/Purple Hibiscus.jpg" width="150" height="200" />
+                    <p><b>Purple Hibiscus</b> <br /><b>Fiction</b><br />Chimamada Adiche</p>
+                    <div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p>Available</p>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="section-second">
+
+        <div class="second-row">
+            <div>
+                <img src="~/images/Things-Fall-Apart.jpg.webp " width="150" height="200" />
+                <p><b>Things-Fall-Apart</b> <br /><b>Fiction</b><br />Chinua Achebe</p>
+                <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Available</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="~/images/wahala.jpg.webp" width="150" height="200" />
+                <p><b>wahala</b> <br /><b>Fiction</b><br />Nikki May</p>
+                <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Available</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="~/images/The Carnivorous City.webp" width="150" height="200" />
+                <p><b>The Carnivorous City</b> <br /><b>Non-Fiction</b><br />Toni Kan</p>
+                <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Available</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="~/images/Operation_Sisterhood.webp" width="150" height="200" />
+                <p><b>Operation_Sisterhood</b> <br /><b>Fiction</b><br />Olugbemisola Rhuday-Perkovich</p>
+                <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Available</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section class="section-third">
+        <div class="third-row">
+            <div>
+                <img src="~/images/Lightseekers_cover.jpg.webp" width="150" height="200" />
+                <p><b>Lightseekers_cover</b> <br /><b>Fiction</b><br />Femi Kayode</p>
+                <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p>Available</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="~/images/Coconut.jpg.webp" width="150" height="200" />
+                <p><b>Coconut</b> <br /><b>Non-Fiction</b><br />Florence Olajide</p>
+                <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Available</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="~/images/The-How.jpeg.webp" width="150" height="200" />
+                <p><b>The-How</b> <br /><b>Fiction</b><br />Yrsa Daley-Ward</p>
+                <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Available</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="~/images/FreshWater.jpg" width="150" height="200" />
+                <p><b>FreshWater</b> <br /><b>Non-Fiction</b><br />Akwaeke Emezi</p>
+                <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p>Available</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <br />
+    <br />
+
+    @* <section class="section-2">
+    <div class="text-center">
+    <h2>Classical Books</h2>
+
+    <div class="african-books">
+    <div>
+    <img src="~/images/spilt milk.jpeg" />
+    <p><b>Spilt Milk</b>by Kopano Matlwa</p>
+    </div>
+
+    <div>
+    <img src="~/images/rich dad.jpg" />
+    </div>
+
+    <div>
+    <img src="~/images/harry potter.jpg" />
+    </div>
+
+    <div>
+    <img src="~/images/think&grow rich.jpg" />
+    </div>
+    </div>
+
+    </div>
+    </section>*@
+
+    </body>
